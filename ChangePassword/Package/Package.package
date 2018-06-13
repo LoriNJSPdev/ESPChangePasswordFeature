@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3740ea19-2004-49dd-9ceb-fe2bb2d29f92" solutionId="3740ea19-2004-49dd-9ceb-fe2bb2d29f92" resetWebServer="false" sharePointProductVersion="15.0" name="ChangePassword" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="7a92630c-7d0c-4ed2-9a77-f0e43ced82fb" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="261341bc-31fb-4d68-a5fa-0f6c74f607bc" />
+    <projectItemReference itemId="02915cf0-f993-41dd-a429-7ac8fb52e298" />
+    <projectItemReference itemId="e457081a-9a68-4ad3-be89-1bb2aa8e20c5" />
+  </projectItems>
+</package>

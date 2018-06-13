@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+   Id="ChangePassword"
+   GroupId="PersonalActions"
+   Location="Microsoft.SharePoint.StandardMenu"
+   Sequence="1000"
+   Title="Change Password"
+   Description="Click here to change your password">
+    <UrlAction Url="javascript:(function () { var o = { url:'/_layouts/15/ChangePassword/changepassword.aspx', title: 'Change Password',width: 350, autoSize: true, showClose: false, }; SP.SOD.execute('sp.ui.dialog.js', 'SP.UI.ModalDialog.showModalDialog', o); }) ();"/>
+  </CustomAction>
+</Elements>
